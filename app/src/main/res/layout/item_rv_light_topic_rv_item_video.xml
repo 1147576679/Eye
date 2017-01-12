@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white_color"
+    android:layout_margin="4dp">
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/iv_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="160dp"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:maxWidth="300dp"
+        android:layout_height="wrap_content"
+        tools:text="宫崎骏十大动画，你看过几部"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@id/tv_category_video_duration"/>
+</LinearLayout>
